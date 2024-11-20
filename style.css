@@ -1,4 +1,53 @@
-h1{
-    color:white;
-    background-color: blueviolet;
+/*resetting defult styles*/
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+/*style the body*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+    color: #333;
+}
+header{
+    background-color:#0c4b0c;
+    color: white;
+    padding: 20px;
+}
+header h1{
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+nav ul{
+    list-style: none;
+    display: flex; /*helps align items horizontally*/
+    gap: 60px;
+   
+
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+nav a:hover{
+    color: yellow;
+}
+main{
+    padding: 20px;
+}
+#task-input{
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+#task-input h2,p{
+    margin-bottom: 10px;
+}
+#task-input form{
+    gap: 4px;
+}
+#task-input input[type=text]{
+    padding: 5px 10px;
 }
